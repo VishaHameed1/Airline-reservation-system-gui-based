@@ -1,0 +1,23 @@
+New-Item -Path .gitignore -ItemType File
+Set-Content .gitignore @"
+# Visual Studio Temporary Files
+.vs/
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.obj
+*.pdb
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
+*.sdf
+*.opensdf
+*.ipch
+*.suo
+*.user
+*.userosscache
+*.sln.doccache
+"@
